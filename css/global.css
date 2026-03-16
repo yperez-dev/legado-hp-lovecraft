@@ -1,0 +1,39 @@
+:root {
+  /*Colores blancos*/
+  --white-50: #ffffff;
+  --white-100: #f7f7f7;
+  --white-200: #e0e0e0;
+  --white-300: #c5c5c5;
+  --white-400: #a7a7a7;
+  --white-500: #898989;
+  --white-600: #6a6a6a;
+  --white-700: #4b4b4b;
+  --white-800: #2e2e2e;
+  --white-900: #111111;
+
+  /*Colores rojos*/
+  --fuzzy-wuzzy-brown-50: #f8eeef;
+  --fuzzy-wuzzy-brown-100: #eed5d6;
+  --fuzzy-wuzzy-brown-200: #e1aeb0;
+  --fuzzy-wuzzy-brown-300: #d8898d;
+  --fuzzy-wuzzy-brown-400: #d1636a;
+  --fuzzy-wuzzy-brown-500: #b34c53;
+  --fuzzy-wuzzy-brown-600: #9b4147;
+  --fuzzy-wuzzy-brown-700: #7b3237;
+  --fuzzy-wuzzy-brown-800: #582225;
+  --fuzzy-wuzzy-brown-900: #351114;
+  --fuzzy-wuzzy-brown-950: #22090a;
+
+  /*Color menta*/
+  --algae-green-50: #cffae9;
+  --algae-green-100: #a0f7d8;
+  --algae-green-200: #83e7c5;
+  --algae-green-300: #78d4b4;
+  --algae-green-400: #68b99e;
+  --algae-green-500: #579c85;
+  --algae-green-600: #457e6b;
+  --algae-green-700: #325f50;
+  --algae-green-800: #204035;
+  --algae-green-900: #0f221c;
+  --algae-green-950: #06130f;
+}

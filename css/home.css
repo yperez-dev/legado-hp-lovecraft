@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #9d9d9d;
+  background-color: #cdcdcd;
 }
 
 header {
-  background-color: #dbdbdb;
+  background-color: #ededed;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -19,8 +19,8 @@ header {
 }
 
 .logo {
-  width: 250px;
-  display: block;
+  width: 200px;
+  /*display: block;*/
 }
 
 .nav-links {
@@ -37,20 +37,7 @@ header {
   position: relative;
 }
 
-.nav-links a::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 3px;
-  background: #b34c53;
-  left: 0;
-  bottom: -5px;
-  transition: 0.3s;
-}
 
-.nav-links a:hover::after {
-  width: 100%;
-}
 
 .contact-btn {
   background: #b34c53;
