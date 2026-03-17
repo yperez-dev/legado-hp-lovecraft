@@ -12,11 +12,11 @@
   justify-content: center;
   gap: 60px;
   padding: 80px 10%;
-  /*min-height: 80vh;*/
 }
 
-.hero img {
-  width: 400px;
+.hero-image img {
+  width: 420px;
+  border-radius: 12px;
   object-fit: cover;
 }
 
@@ -26,17 +26,39 @@
 
 .hero-content h1 {
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;/*20*/
   color: var(--masala-950);
 
-  text-align: center;
+  text-align: left;
 }
 
 .hero-content p {
   font-size: 22px;
   line-height: 1.7;
   color: var(--masala-800);
+  margin-bottom: 50px;
 
-  text-align: center;
+  text-align: left;
 }
 
+/*Cita del autor*/
+.cita {
+  margin-top: 20px; /*30*/
+  border-left: 3px solid var(--fuzzy-wuzzy-brown-500);
+  padding-left: 20px;
+}
+
+.cita blockquote p {
+  font-size: 18px;
+  font-style: italic;
+  color: var(--masala-700);
+  line-height: 1.7;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.cita figcaption {
+  font-size: 15px;
+  color: var(--masala-500);
+  margin-top: 25px;
+}
