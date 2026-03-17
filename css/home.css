@@ -6,7 +6,7 @@
 }
 
 /*Seccion de la imagen y el parrafo*/
-.hero {
+.introduccion {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,42 +14,42 @@
   padding: 80px 10%;
 }
 
-.hero-image img {
-  width: 420px;
+.introduccion-img img {
+  width: 500px;
   border-radius: 12px;
   object-fit: cover;
 }
 
-.hero-content {
+.introduccion-cont {
   max-width: 520px
 }
 
-.hero-content h1 {
-  font-size: 48px;
-  margin-bottom: 50px;/*20*/
+.introduccion-cont h1 {
+  font-size: 45px;
+  margin-bottom: 70px;/*20*/
   color: var(--masala-950);
 
   text-align: left;
 }
 
-.hero-content p {
+.introduccion-cont p {
   font-size: 22px;
   line-height: 1.7;
   color: var(--masala-800);
-  margin-bottom: 50px;
+  margin-bottom: 70px;/*70*/
 
   text-align: left;
 }
 
-/*Cita del autor*/
+/*Seccion hero: Cita del autor*/
 .cita {
   margin-top: 20px; /*30*/
-  border-left: 3px solid var(--fuzzy-wuzzy-brown-500);
+  border-left: 6px solid var(--fuzzy-wuzzy-brown-500);
   padding-left: 20px;
 }
 
 .cita blockquote p {
-  font-size: 18px;
+  font-size: 22px;
   font-style: italic;
   color: var(--masala-700);
   line-height: 1.7;
@@ -59,6 +59,8 @@
 
 .cita figcaption {
   font-size: 15px;
+  text-align: left;
   color: var(--masala-500);
-  margin-top: 25px;
+  margin-top: 20px;
 }
+
