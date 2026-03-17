@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #cdcdcd;
+  background-color: var(--white-200);
 }
 
 header {
-  background-color: #ededed;
+  background-color: var(--white-50);
   display: flex;
   align-items: center;
   justify-content: end;
@@ -20,7 +20,6 @@ header {
 
 .logo {
   width: 200px;
-  /*display: block;*/
 }
 
 .nav-links {
@@ -33,21 +32,20 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #3f3f3f;
-  position: relative;
+  color: var(--masala-700);
 }
 
 
 
 .contact-btn {
-  background: #b34c53;
+  background: var(--fuzzy-wuzzy-brown-500);
   border-radius: 30px;
   padding: 10px 22px;
-  color: #000;
+  color: var(--masala-950);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 12px;
 }
 
 .contact-btn img {
@@ -56,4 +54,39 @@ header {
 
 .image-container {
   margin-right: auto;
+}
+
+/*Seccion de la imagen y el parrafo*/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 10%;
+  min-height: 80vh;
+}
+
+.hero img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.hero-content {
+  max-width: 520px
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: var(--masala-950);
+
+  text-align: center;
+}
+
+.hero-content p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: var(--masala-800);
+
+  text-align: center;
 }

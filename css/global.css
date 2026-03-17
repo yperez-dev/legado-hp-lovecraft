@@ -36,4 +36,17 @@
   --algae-green-800: #204035;
   --algae-green-900: #0f221c;
   --algae-green-950: #06130f;
+
+  /*Color gris*/
+  --masala-50: #f1f1f1;
+  --masala-100: #dbdbdb;
+  --masala-200: #bababa;
+  --masala-300: #9d9d9d;
+  --masala-400: #838383;
+  --masala-500: #6a6a6a;
+  --masala-600: #545454;
+  --masala-700: #3f3f3f;
+  --masala-800: #303030;
+  --masala-900: #1c1c1c;
+  --masala-950: #111111;
 }
