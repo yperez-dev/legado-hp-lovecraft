@@ -1,11 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-/*Seccion de la imagen y el parrafo*/
+/*Seccion hero: imagen y el parrafo*/
 .introduccion {
   display: flex;
   align-items: center;
@@ -64,3 +57,7 @@
   margin-top: 20px;
 }
 
+/**/
+.horror-cosmico {
+
+}
