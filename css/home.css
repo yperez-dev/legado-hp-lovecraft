@@ -135,6 +135,46 @@
   line-height: 1.7;
 }
 
+/*Seccion: Biografia de adultez*/
+.bio-adultez {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%;
+  gap: 60px;
+}
+
+.bio-adultez-cont {
+  max-width: 550px;
+}
+
+.bio-adultez-cont h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bio-adultez-cont p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.lovecraft-adultez-img {
+  max-width: 300px;
+}
+
+.lovecraft-adultez-img img {
+  width: 300px;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.lovecraft-adultez-img figcaption {
+  font-size: 14px;
+  text-align: justify;
+}
+
 /*Seccion: que es el horor cosmico*/
 .horror-cosmico {
   display: flex;
