@@ -80,8 +80,22 @@
   text-align: justify;
 }
 
+.lovecraft-bebe {
+  width: 300px;
+}
 
+.lovecraft-bebe img {
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
 
+.lovecraft-bebe figcaption {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*Seccion: */
 
 /*Seccion: que es el horor cosmico*/
 .horror-cosmico {
@@ -114,12 +128,10 @@
 .bootes-img img {
   width: 300px;
   border-radius: 12px;
-  display: flex;
   margin-bottom: 20px;
 }
 
 .bootes-img figcaption {
   font-size: 14px;
   text-align: justify;
-
 }
