@@ -4,7 +4,6 @@ const navbar = `
     
     <nav>
       <ul class="nav-links">
-        <li> <a href="#">Biografía</a></li>
         <li> <a href="/pages/legacy.html">Legado</a></li>
         <li> <a href="#">Obras</a></li>
         <li> <a href="#">Mitos</a></li>

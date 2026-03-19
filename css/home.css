@@ -1,63 +1,98 @@
 /*Seccion hero: imagen y el parrafo*/
 .introduccion {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   gap: 60px;
   padding: 80px 10%;
 }
 
-.introduccion-img img {
+.lovecraft-img img {
   width: 500px;
   border-radius: 12px;
-  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.lovecraft-img figcaption {
+  font-size: 20px;
 }
 
 .introduccion-cont {
-  max-width: 520px
+  max-width: 520px;
 }
 
 .introduccion-cont h1 {
-  font-size: 45px;
-  margin-bottom: 70px;/*20*/
-  color: var(--masala-950);
-
+  font-size: 46px;
+  margin-bottom: 40px;/*20*/
   text-align: left;
 }
 
 .introduccion-cont p {
   font-size: 22px;
-  line-height: 1.7;
-  color: var(--masala-800);
-  margin-bottom: 70px;/*70*/
-
+  line-height: 1.7; /*espacio entre lineas del parrafo*/
+  
   text-align: left;
 }
 
 /*Seccion hero: Cita del autor*/
 .cita {
-  margin-top: 20px; /*30*/
+  margin-top: 100px; /*espacio de la cita para arriba*/
   border-left: 6px solid var(--fuzzy-wuzzy-brown-500);
   padding-left: 20px;
 }
 
 .cita blockquote p {
   font-size: 22px;
-  font-style: italic;
-  color: var(--masala-700);
   line-height: 1.7;
-  margin-bottom: 0;
   text-align: left;
+  font-style: italic;
+  margin-bottom: 0;
 }
 
 .cita figcaption {
   font-size: 15px;
   text-align: left;
   color: var(--masala-500);
-  margin-top: 20px;
+  margin-top: 16px;/*espacio entre cita y autor*/
 }
 
-/**/
+/*Seccion: que es el horor cosmico*/
 .horror-cosmico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%;
+  gap: 60px;
+}
+
+.horror-cosmico-cont {
+  max-width: 650px; 
+}
+
+.horror-cosmico-cont h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.horror-cosmico-cont p {
+  font-size: 22px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.bootes-img {
+  width: 400px;
+}
+
+.bootes-img img {
+  width: 400px;
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bootes-img figcaption {
+  font-size: 20px;
+  text-align: justify;
 
 }
