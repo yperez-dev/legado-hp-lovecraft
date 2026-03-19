@@ -95,7 +95,45 @@
   text-align: justify;
 }
 
-/*Seccion: */
+/*Seccion: Biografia adolescencia*/
+.bio-adolescencia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%;
+  gap: 60px;
+}
+
+.lovecraft-adolescencia-img {
+  max-width: 300px;
+}
+
+.lovecraft-adolescencia-img img {
+  width: 300px;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.lovecraft-adolescencia-img figcaption {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.bio-adolescencia-cont {
+  max-width: 550px;
+}
+
+.bio-adolescencia-cont h2{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.bio-adolescencia-cont p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
 
 /*Seccion: que es el horor cosmico*/
 .horror-cosmico {
