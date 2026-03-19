@@ -56,6 +56,33 @@
   margin-top: 16px;/*espacio entre cita y autor*/
 }
 
+/*Seccion: Biografia infancia*/
+.bio-infancia {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*elementos en el centro del div*/
+  padding: 80px 10%;
+  gap: 60px;
+}
+
+.bio-infancia-cont {
+  max-width: 550px;
+}
+
+.bio-infancia-cont h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bio-infancia-cont p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+
+
+
 /*Seccion: que es el horor cosmico*/
 .horror-cosmico {
   display: flex;
@@ -66,33 +93,33 @@
 }
 
 .horror-cosmico-cont {
-  max-width: 650px; 
+  max-width: 550px; 
 }
 
 .horror-cosmico-cont h2 {
-  font-size: 40px;
+  font-size: 30px;/*40*/
   margin-bottom: 20px;
 }
 
 .horror-cosmico-cont p {
-  font-size: 22px;
+  font-size: 18px;/*22*/
   line-height: 1.7;
   text-align: justify;
 }
 
 .bootes-img {
-  width: 400px;
+  width: 300px;/*400*/
 }
 
 .bootes-img img {
-  width: 400px;
+  width: 300px;
   border-radius: 12px;
   display: flex;
   margin-bottom: 20px;
 }
 
 .bootes-img figcaption {
-  font-size: 20px;
+  font-size: 14px;
   text-align: justify;
 
 }
