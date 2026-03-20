@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   justify-content: center; /*elementos en el centro del div*/
-  padding: 80px 10%;
+  padding: 40px 10%;
   gap: 60px;
 }
 
@@ -100,7 +100,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 40px 10%;
   gap: 60px;
 }
 
@@ -140,7 +140,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 40px 10%;
   gap: 60px;
 }
 
@@ -175,12 +175,51 @@
   text-align: justify;
 }
 
+/*Seccion: biografia regreso a casa*/
+.bio-regreso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 10%;
+  gap: 60px;
+}
+
+.cthulhu-img {
+  max-width: 300px;
+}
+
+.cthulhu-img img {
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.bio-border-regreso figcaption {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.bio-regreso-cont {
+  max-width: 550px;
+}
+
+.bio-regreso-cont h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bio-regreso-cont p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
 /*Seccion: que es el horor cosmico*/
 .horror-cosmico {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 10%;
+  padding: 40px 10%;
   gap: 60px;
 }
 
