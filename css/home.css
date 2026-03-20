@@ -10,7 +10,7 @@
 .lovecraft-img img {
   width: 500px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .lovecraft-img figcaption {
@@ -87,7 +87,7 @@
 .lovecraft-bebe img {
   width: 300px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .lovecraft-bebe figcaption {
@@ -112,7 +112,7 @@
   width: 300px;
   max-width: 300px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .lovecraft-adolescencia-img figcaption {
@@ -125,7 +125,7 @@
 }
 
 .bio-adolescencia-cont h2{
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -167,7 +167,7 @@
   width: 300px;
   max-width: 300px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .lovecraft-adultez-img figcaption {
@@ -191,7 +191,7 @@
 .cthulhu-img img {
   width: 300px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .bio-border-regreso figcaption {
@@ -212,6 +212,29 @@
   font-size: 18px;
   text-align: justify;
   line-height: 1.7;
+}
+
+/*Seccion: biografia fallecimiento de Lovecraft*/
+.bio-fallecimiento {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10%;
+  gap: 60px;
+}
+
+.bio-fallecimiento-cont {
+  max-width: 900px;
+}
+
+.bio-fallecimiento-cont h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bio-fallecimiento-cont p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
 }
 
 /*Seccion: que es el horor cosmico*/
@@ -245,7 +268,7 @@
 .bootes-img img {
   width: 300px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .bootes-img figcaption {
