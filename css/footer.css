@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background-color: var(--masala-950);
+  gap: 30px;
+}
+
+.footer-logo p {
+  font-size: 13px;
+  color: var(--masala-500);
+}
+
+.footer-credits p {
+  font-size: 13px;
+  color: var(--masala-500);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.footer-credits span {
+  color: var(--white-50);
+}
+
+.footer-copy p {
+  font-size: 13px;
+  color: var(--masala-500);
+}
