@@ -1,0 +1,112 @@
+.introduccion {
+  display: flex;
+  justify-content: center;/*Contorla el eje principal*/
+  align-items: start;/*Controla el eje cruzado*/
+  padding: 80px 10% 40px;
+  gap: 60px;
+}
+
+.introduccion-cont {
+  max-width: 900px;
+}
+
+.introduccion-cont h1 {
+  font-size: 46px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.introduccion-cont p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+/*seccion: ejemplos de la influencia de Lovecraft*/
+.influencia-musica {
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  gap: 60px;
+  padding: 40px 10%;
+}
+
+.influencia-cont {
+  max-width: 900px;
+}
+
+.influencia-cont h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.influencia-cont p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/*seccion de joaquin padilla*/
+.joaquin-padilla {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 60px;
+  padding: 40px 10%;
+}
+
+.cont-p1 {
+  max-width: 550px;
+}
+
+.cont-p1 h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cont-p1 p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.cont-p1 span {
+  color: var(--fuzzy-wuzzy-brown-500);
+
+}
+
+.album-img {
+  max-width: 300px;
+}
+
+.album-img img {
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.album-img figcaption {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*parrafo dos de la seccion metal*/
+.joaquin-padilla-p2 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 60px;
+  padding: 0px 10% 40px;
+}
+
+.cont-p2 {
+  max-width: 900px;
+}
+
+.cont-p2 p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+
