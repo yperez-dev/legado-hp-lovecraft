@@ -109,4 +109,36 @@
   line-height: 1.7;
 }
 
+/*seccion de cradle of filth*/
+.cradle-of-filth {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 60px;
+  padding: 40px 10%;
+}
 
+.album {
+  max-width: 300px;
+}
+
+.album img {
+  border-radius: 12px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.album-p1 {
+  max-width: 550px;
+}
+
+.album-p1 h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.album-p1 p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
