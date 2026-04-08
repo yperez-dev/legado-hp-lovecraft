@@ -149,20 +149,51 @@
   justify-content: center;
   align-items: start;
   padding: 40px 10%;
+  gap: 60px;
 }
 
-.section__content {
+.section-content {
   max-width: 900px;
 }
 
-.section__content h2 {
+.section-content h2 {
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.section__content p {
+.section-content p {
   font-size: 18px;
   text-align: justify;
   line-height: 1.7;
 }
 
+/*Seccion de influencia en videojuegos*/
+.section-content-narrow {
+  max-width: 550px;
+}
+
+.section-content-narrow h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.section-content-narrow p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.figure {
+  max-width: 300px;
+}
+
+.figure img {
+  width: 300px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.figure figcaption {
+  font-size: 14px;
+  text-align: justify;
+}
