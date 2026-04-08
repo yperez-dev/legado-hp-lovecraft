@@ -142,3 +142,27 @@
   text-align: justify;
   line-height: 1.7;
 }
+
+/*seccion de influencia en peliculas*/
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 40px 10%;
+}
+
+.section__content {
+  max-width: 900px;
+}
+
+.section__content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.section__content p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
