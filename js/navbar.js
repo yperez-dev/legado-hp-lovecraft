@@ -13,7 +13,7 @@ const navbar = `
       </ul>
     </nav>
 
-    <a href="#" class="contact-btn"> <img src="/assets/icons/usuario.png" alt="">Acerca de</a>
+    <a href="/pages/about.html" class="contact-btn"> <img src="/assets/icons/usuario.png" alt="">Acerca de</a>
   </header>
 `;
 
