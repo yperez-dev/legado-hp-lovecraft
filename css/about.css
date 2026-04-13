@@ -1,33 +1,184 @@
-.section-about {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  gap: 60px;
+.div-cont {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: var(--white-100);
   border-radius: 12px;
-  padding: 40px 10%;
 }
 
-.div-about {
-  width: 1500px;
-  background-color: var(--white-700);
+/*clase y h2 todas las secciones*/
+.seccion {
+  max-width: 900px;
+  padding: 20px 5%;
+}
 
+.seccion h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--fuzzy-wuzzy-brown-500);
+}
+
+/*seccion perfil*/
+.seccion-perfil {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 900px;
+  padding: 40px 5%;
+}
+
+.yume-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /*object-fit: cover;*/
+}
+
+.perfil-cont h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.perfil-cont h2 {
+  font-size: 18px;
+  color: var(--fuzzy-wuzzy-brown-500);
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.perfil-cont p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.perfil-cont h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/*seccion tecnoloyia*/
+.tecnologias {
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.tecnologia-item img {
+  width: 48px;
+  height: 48px;
+}
+
+
+.tecnologia-item span {
+  font-size: 13px;
+  color: var(--fuzzy-wuzzy-brown-500);
+  text-align: center;
+}
+
+
+/* Educación */
+.educacion {
+  margin-bottom: 20px;
+}
+
+.edu-titulo {
   display: flex;
   justify-content: space-between;
-  align-items: start;
-  gap: 60px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.edu-titulo h3 {
+  font-size: 18px;
+}
+
+.edu-year {
+  font-size: 14px;
+  color: var(--masala-500);
+}
+
+.edu-colegio {
+  font-size: 15px;
+  color: var(--fuzzy-wuzzy-brown-500);
+  margin-bottom: 8px;
+}
+
+.edu-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--masala-700);
+}
+
+/*Seccion de proyectos :v*/
+.proyecto {
+  padding: 24px;
   border-radius: 12px;
-  padding: 40px 3%;
+  background-color: var(--white-200);
+  margin-bottom: 20px;
 }
 
-.div-about img {
-  width: 300px;
+.proyecto-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
-.div-name {
-  max-width: 600px;
+.proyecto-titulo a {
+  font-size: 14px;
+  color: var(--fuzzy-wuzzy-brown-500);
+  text-decoration: none;
 }
 
-.div-name h1 {
-  font-size: 50px;
-  margin-bottom: 30px;
+.proyecto-titulo h3 {
+  font-size: 18px;
+}
+
+.project-item p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--masala-700);
+  margin-bottom: 16px;
+}
+
+.tecnologias-proyecto {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  padding: 15px 0px;
+}
+
+.tecnologias-proyecto span {
+  font-size: 13px;
+  color: var(--fuzzy-wuzzy-brown-700);
+  background-color: var(--fuzzy-wuzzy-brown-100);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/*Seccion de idiomas*/
+.idioma-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid var(--white-200);
+  max-width: 400px;
+}
+
+.idoma-nombre {
+  font-size: 16px;
+  color: var(--masala-800);
+}
+
+.idioma-nivel {
+  font-size: 14px;
+  color: var(--masala-500);
 }
