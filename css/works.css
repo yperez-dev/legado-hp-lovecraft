@@ -1,0 +1,72 @@
+.obras-section {
+  padding: 60px 10%;
+}
+
+.obras-section h1 {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.obras-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+
+
+/* La tarjeta simula un libro con el lomo a la izquierda */
+.card {
+  display: flex;
+  background-color: var(--white-100);
+  border-radius: 4px 12px 12px 4px;
+  overflow: hidden;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Lomo del libro */
+.card-lomo {
+  width: 14px;
+  flex-shrink: 0;
+  background-color: var(--fuzzy-wuzzy-brown-600);
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--masala-900);
+  line-height: 1.4;
+}
+
+.card-autor {
+  font-size: 13px;
+  color: var(--fuzzy-wuzzy-brown-500);
+}
+
+.card-datos {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--white-300);
+}
+
+.card-dato {
+  font-size: 13px;
+  color: var(--masala-600);
+  line-height: 1.5;
+}
+
+.card-dato span {
+  font-weight: bold;
+  color: var(--masala-800);
+}
