@@ -24,16 +24,16 @@ LEGADO-HP-LOVECRAFT/
 │   ├── icons/
 │   └── images/
 ├── css/
-    ├── about.css
+│   ├── about.css
 │   ├── colors.css
 │   ├── footer.css
 │   ├── global.css
 │   ├── home.css
-    ├── legacy.css
-    ├── navbar.css
+│   ├── legacy.css
+│   ├── navbar.css
 │   └── works.css
 ├── js/
-    ├── footer.js
+│   ├── footer.js
 │   ├── navbar.js
 │   └── works.js
 ├── pages/
