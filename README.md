@@ -6,7 +6,7 @@ Sitio web sobre la biografía de Howart Phillips Lovecraft, su vida, su vida, le
 
 * HTML5
 * CSS3
-* JavaScript vanilla
+* JavaScript moderno
 
 ## Características del sitio web
 
@@ -24,16 +24,22 @@ LEGADO-HP-LOVECRAFT/
 │   ├── icons/
 │   └── images/
 ├── css/
+    ├── about.css
 │   ├── colors.css
 │   ├── footer.css
 │   ├── global.css
 │   ├── home.css
-│   └── navbar.css
+    ├── legacy.css
+    ├── navbar.css
+│   └── works.css
 ├── js/
-│   ├── footer.js
-│   └── navbar.js
+    ├── footer.js
+│   ├── navbar.js
+│   └── works.js
 ├── pages/
-│   └── legacy.html
+│   ├── about.html
+│   ├── legacy.html
+│   └── works.html
 ├── index.html
 └── README.md
 ```
